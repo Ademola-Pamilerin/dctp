@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="center_it">
+      <div id="result">
+        <div class="mtn hide">MTN</div>
+        <div class="airtel hide">AIRTEL</div>
+        <div class="etisalat hide">9MOBILE</div>
+        <div class="glo hide">GLO</div>
+      </div>
+
+      <div class="hide loading">loading ....</div>
+      <div class="hide error">error: Invalid Number</div>
+
+      <input placeholder="enter your mobile number" id="phone_number" />
+      <br />
+      <select id="formatter">
+        <option value="#"></option>
+        <option value="airtel">AIRTEL</option>
+        <option value="globacom">GLO</option>
+        <option value="mtn">MTN</option>
+        <option value="emerging">9MOBILE</option>
+      </select>
+      <br />
+      <button id="submitHandler">Submit</button>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
